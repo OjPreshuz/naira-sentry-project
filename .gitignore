@@ -133,6 +133,7 @@ dmypy.json
 
 # Data files (large raw datasets)
 data/
+!data/README.md
 *.csv
 *.json
 *.parquet
@@ -140,6 +141,7 @@ data/
 
 # Model files (if they get large)
 models/
+!models/README.md
 *.pkl
 *.joblib
 *.h5
