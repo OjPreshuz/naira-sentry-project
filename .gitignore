@@ -139,11 +139,12 @@ data/
 *.parquet
 *.xlsx
 
-# Model files (if they get large)
-models/
-!models/README.md
-*.pkl
-*.joblib
+# Model files - KEEP models/ directory for deployment
+# (only ignore if they're very large - our models are <5MB so commit them)
+# models/
+# !models/README.md
+# *.pkl
+# *.joblib
 *.h5
 *.pth
 *.pt
